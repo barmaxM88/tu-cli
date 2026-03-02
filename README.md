@@ -26,14 +26,20 @@ go build -o tu main.go
 
 Windows:
 .\tu.exe create "My first record"
+
 .\tu.exe change 1 "Updated text"
+
 .\tu.exe delete 1
+
 .\tu.exe list
 
 Mac/Linux:
 ./tu create "My first record"
+
 ./tu change 1 "Updated text"
+
 ./tu delete 1
+
 ./tu list
 
 ## Notes
@@ -41,3 +47,4 @@ Mac/Linux:
 - Records are stored in records.json in the same folder as the program.
 - Make sure to run the program in the folder where main.go or the compiled binary is located.
 - Use the list command to see all existing records with their IDs.
+
